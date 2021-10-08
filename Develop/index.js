@@ -19,6 +19,16 @@ const questions = [
         name: 'installation',
         message: 'What are the steps required to install your project?'
     },
+    {
+        type: 'input',
+        name: 'screenShot',
+        message: 'Provide the file name for your screenshot please(.jpeg/.png)'
+    },
+    {
+        type: 'input',
+        name: 'video',
+        message: 'Provide the file name for your video please'
+    }
     
 ];
 

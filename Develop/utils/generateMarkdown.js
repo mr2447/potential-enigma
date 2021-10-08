@@ -17,7 +17,9 @@ function generateMarkdown(data) {
   ${data.description}
   ## Installation: 
   ${data.installation}
-  ## Built With 
+  ## Usage
+  ![terminal in VS](./assets/images/${data.screenShot})
+  ![terminal in VS](./assets/images/${data.video})
 `;
 }
 
