@@ -28,8 +28,31 @@ const questions = [
         type: 'input',
         name: 'video',
         message: 'Provide the file name for your video please'
-    }
-    
+    },
+    // {   
+    //     type: 'input',
+    //     name: 'credits',
+    //     message: 'Provide your collaborators name'
+    // },
+    // {
+    //     type: 'confirm',
+    //     name: 'confirmContriLink',
+    //     message: 'Would you like to include a link to a contributor?',
+    //     default: true
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'contriLink',
+    //     message: 'Provide the link to the contributor',
+    //     when: ({confirmContriLink}) => confirmContriLink
+    // },
+    // {
+    //     type: 'confirm',
+    //     name: 'confirmNewContri',
+    //     message: 'Would you like to add a new contributor?',
+    //     defalut: #false
+    // },
+        
 ];
 
 // TODO: Create a function to write README file
