@@ -48,7 +48,7 @@ const questions = [
     // },
     // {
     //     type: 'confirm',
-    //     name: 'confirmNewContri',
+    //     name: 'confirmAddContri',
     //     message: 'Would you like to add a new contributor?',
     //     defalut: #false
     // },
@@ -68,7 +68,14 @@ function writeToFile(data) {
 
 // TODO: Create a function to initialize app
 function init() {
+    
     return inquirer.prompt(questions)
+    // .then(fileData => {
+    //     questions.
+    //     if (fileData.confirmAddContri) {
+    //         return inquirer.prompt(questions)
+    //     }
+    // })
     .then((data) => {        
         const markDown = generateMarkDown (data)
         writeToFile(markDown)
