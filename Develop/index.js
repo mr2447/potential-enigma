@@ -31,6 +31,8 @@ function writeToFile(/*fileName,*/data) {
 function init() {
     return inquirer.prompt(questions)
     .then((data) => {
+        const filename = 
+        data.name.toLowerCase().split(' ').join('') + '.md';        
         const markDown = generateMarkDown (data)
         console.log(markDown)
 
