@@ -1,8 +1,8 @@
-# afdsgf
+# dasfg
   ## Description: 
-  asgdf
+  fdsghg
   ## Installation: 
-  dafsg
+  adsfgh
   ## Usage
-  ![terminal in VS](./assets/images/screen-shot.jpeg)
-  ![terminal in VS](./assets/images/video.mp4)
+  ![terminal in VS](../assets/images/screen-shot/jpeg)
+  ![terminal in VS](../assets/images/video.mp4)

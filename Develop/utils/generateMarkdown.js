@@ -18,8 +18,8 @@ function generateMarkdown(data) {
   ## Installation: 
   ${data.installation}
   ## Usage
-  ![terminal in VS](./assets/images/${data.screenShot})
-  ![terminal in VS](./assets/images/${data.video})
+  ![terminal in VS](../assets/images/${data.screenShot})
+  ![terminal in VS](../assets/images/${data.video})
 `;
 }
 
