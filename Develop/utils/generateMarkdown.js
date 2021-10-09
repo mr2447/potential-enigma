@@ -24,12 +24,12 @@ function generateMarkdown(data) {
   
   This App is open source software licensed as ${data.license}.
   ## Table of Contents
-  * [Description](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#description)
-  * [Installation](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#installation)
-  * [Usage](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#usage)
-  * [Tests](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#tests)
-  * [Credits](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#Credits)
-  * [Questions](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#questions)
+  [Description](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#description)
+  [Installation](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#installation)
+  [Usage](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#usage)
+  [Tests](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#tests)
+  [Credits](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#Credits)
+  [Questions](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#questions)
   ## Description: 
   ${data.description}
   ## Installation: 
