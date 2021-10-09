@@ -1,7 +1,7 @@
-# asdfg
+# enigma
   ## Badges
   
-  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]()
+  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
   
   This App is open source software licensed as MIT.
   ## Table of Contents
@@ -12,13 +12,17 @@
   * [Credits](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#Credits)
   * [Questions](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#questions)
   ## Description: 
-  undefined
+  generate README files
   ## Installation: 
-  undefined
+  install node, npm install inquirer
   ## Usage
-  ![terminal in VS](../assets/images/undefined)
-  ![terminal in VS](../assets/videos/undefined)
-  ## Tests
-  undefined
+  * ![terminal in VS](../assets/images/screen-shot.jpeg)
+  * ![terminal in VS](../assets/videos/video.gif)
   ## Credits 
-  undefined: 
+  Marvin Ren: 
+  ## Tests
+  no test
+  ## Quesions?
+  Reach me on gitHub or by email. 
+  GitHUb: mr2447
+  Email: marvin.ren@yahoo.com

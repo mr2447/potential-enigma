@@ -35,12 +35,16 @@ function generateMarkdown(data) {
   ## Installation: 
   ${data.installation}
   ## Usage
-  ![terminal in VS](../assets/images/${data.screenShot})
-  ![terminal in VS](../assets/videos/${data.video})
-  ## Tests
-  ${data.test}
+  * ![terminal in VS](../assets/images/${data.screenShot})
+  * ![terminal in VS](../assets/videos/${data.video})
   ## Credits 
   ${data.credits}: ${generateContriLink(data)}
+  ## Tests
+  ${data.test}
+  ## Quesions?
+  Reach me on gitHub or by email. 
+  GitHUb: ${data.gitHubName}
+  Email: ${data.email}
 `;
 }
 
