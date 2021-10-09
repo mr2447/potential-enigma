@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 const fs = require('fs')
-const inquirer = require('inquirer');
+const {prompt} = require('inquirer');
 const generateMarkDown = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = [
@@ -29,30 +29,23 @@ const questions = [
         name: 'video',
         message: 'Provide the file name for your video please'
     },
-    // {   
-    //     type: 'input',
-    //     name: 'credits',
-    //     message: 'Provide your collaborators name'
-    // },
-    // {
-    //     type: 'confirm',
-    //     name: 'confirmContriLink',
-    //     message: 'Would you like to include a link to a contributor?',
-    //     default: true
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'contriLink',
-    //     message: 'Provide the link to the contributor',
-    //     when: ({confirmContriLink}) => confirmContriLink
-    // },
-    // {
-    //     type: 'confirm',
-    //     name: 'confirmAddContri',
-    //     message: 'Would you like to add a new contributor?',
-    //     defalut: #false
-    // },
-        
+    {   
+        type: 'input',
+        name: 'credits',
+        message: 'Provide a contributor name'
+    },
+    {
+        type: 'confirm',
+        name: 'confirmContriLink',
+        message: 'Would you like to include a link to a contributor?',
+        default: true
+    },
+    {
+        type: 'input',
+        name: 'contriLink',
+        message: 'Provide the link to the contributor',
+        when: ({confirmContriLink}) => confirmContriLink
+    },
 ];
 
 // TODO: Create a function to write README file
@@ -69,13 +62,7 @@ function writeToFile(data) {
 // TODO: Create a function to initialize app
 function init() {
     
-    return inquirer.prompt(questions)
-    // .then(fileData => {
-    //     questions.
-    //     if (fileData.confirmAddContri) {
-    //         return inquirer.prompt(questions)
-    //     }
-    // })
+    return prompt(questions)
     .then((data) => {        
         const markDown = generateMarkDown (data)
         writeToFile(markDown)
