@@ -43,7 +43,7 @@ function generateMarkdown(data) {
   ${data.test}
   ## Quesions?
   Reach me on gitHub or by email. 
-  GitHUb: ${data.gitHubName}
+  GitHub: ${data.gitHubName}
   Email: ${data.email}
 `;
 }
