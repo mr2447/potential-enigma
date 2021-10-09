@@ -10,10 +10,10 @@ const questions = [
         message: 'What is the title of your Project?'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What licenses would you like to include?',
-        choices:['MIT', 'Apache 2.0', 'GNU GPLv3']
+        choices:['MIT', 'Apache2.0', 'GPLv3']
     },
     {
         type: 'input',
