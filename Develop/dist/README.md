@@ -12,16 +12,16 @@
   * [Credits](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#Credits)
   * [Questions](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#questions)
   ## Description: 
-  generate README files
+  generate readme files
   ## Installation: 
-  install node, npm install inquirer
+  install node and npm install inquirer
   ## Usage
-  * ![terminal in VS](../assets/images/screen-shot.jpeg)
+  * ![terminal in VS](../assets/images/template-screen-shot.jpeg)
   * ![terminal in VS](../assets/videos/video.gif)
   ## Credits 
-  Marvin Ren: 
+  Marvin Ren https://github.com/mr2447/potential-enigma/tree/main/Develop/dist
   ## Tests
-  no test
+  no tests
   ## Quesions?
   Reach me on gitHub or by email. 
   GitHUb: mr2447

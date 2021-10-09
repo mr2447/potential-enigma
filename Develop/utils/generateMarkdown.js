@@ -38,7 +38,7 @@ function generateMarkdown(data) {
   * ![terminal in VS](../assets/images/${data.screenShot})
   * ![terminal in VS](../assets/videos/${data.video})
   ## Credits 
-  ${data.credits}: ${generateContriLink(data)}
+  ${data.credits} ${generateContriLink(data)}
   ## Tests
   ${data.test}
   ## Quesions?
