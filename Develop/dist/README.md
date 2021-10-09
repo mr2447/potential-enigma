@@ -1,4 +1,4 @@
-# enigma
+# Enigma
   ## Badges
   
   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
@@ -12,7 +12,7 @@
   * [Credits](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#Credits)
   * [Questions](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#questions)
   ## Description: 
-  generate readme files
+  generate README files
   ## Installation: 
   install node and npm install inquirer
   ## Usage
