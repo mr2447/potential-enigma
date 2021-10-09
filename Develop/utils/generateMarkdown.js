@@ -1,9 +1,8 @@
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 const renderLicenseSection = (license, licenseLink) => {
-  if (!licenseLink) {
-    return `
-    ![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  if (!license) {
+    return '';
   }
   return `
   [![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)](${licenseLink})`
@@ -16,11 +15,21 @@ const generateContriLink = data => {
   }
   return `${data.contriLink}`
 }
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   ## Badges
   ${renderLicenseSection(data.license, data.licenseLink)}
+  
+  This App is open source software licensed as ${data.license}.
+  ## Table of Contents
+  * [Description]()
+  * [Installation]()
+  * [Usage]()
+  * [Tests]
+  * [Credits]
+  * [Questions]
   ## Description: 
   ${data.description}
   ## Installation: 
