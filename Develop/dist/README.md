@@ -1,12 +1,14 @@
-# asfgdfh
+# Marvin
+  ## Badges
+  MIT
   ## Description: 
-  sfrgdhf
+  undefined
   ## Installation: 
-  rsgdfh
+  undefined
   ## Usage
-  ![terminal in VS](../assets/images/asgdhf)
-  ![terminal in VS](../assets/videos/asgd)
+  ![terminal in VS](../assets/images/undefined)
+  ![terminal in VS](../assets/videos/undefined)
+  ## Tests
+  undefined
   ## Credits 
-  Marvin: https://github.com/mr2447/portfolio
-
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  undefined: 

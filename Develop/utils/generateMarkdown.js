@@ -1,12 +1,26 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  return; `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg`
+const renderLicenseBadgeOne = (license) => {
+  if (!license[0]) {
+    return; '';
+   }
+  return `![GitHub license](https://img.shields.io/badge/license-${license[0]}-blue.svg)`
 }
-
+const renderLicenseBadgeTwo = (license) => {
+  if (!license[1]) {
+    return; '';
+   }
+  return `![GitHub license](https://img.shields.io/badge/license-${license[1]}-blue.svg)`
+}
+const renderALicenseBadgeThree = (license) => {
+  if (!license[2]) {
+    return; '';
+   }
+  return `![GitHub license](https://img.shields.io/badge/license-${license[2]}-blue.svg)`
+}
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -22,6 +36,8 @@ const generateContriLink = data => {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ## Badges
+  ${renderLicenseBadgeOne(data.license)} ${renderLicenseBadgeTwo(data.license)}${renderLicenseBadgeThree(data.license)}
   ## Description: 
   ${data.description}
   ## Installation: 
@@ -29,23 +45,22 @@ function generateMarkdown(data) {
   ## Usage
   ![terminal in VS](../assets/images/${data.screenShot})
   ![terminal in VS](../assets/videos/${data.video})
+  ## Tests
+  ${data.test}
   ## Credits 
   ${data.credits}: ${generateContriLink(data)}
-  ## Badges
-  ![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)
 `;
 }
 
 module.exports = generateMarkdown;
 
 
-class Questions {
-  askName(){
+// class Questions {
+//   askName(){
 
-  }
-  askLast(){
+//   }
+//   askLast(){
 
-  }
-}
-
-Questions.askName()
+//   }
+// }
+// Questions.askName()

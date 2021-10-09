@@ -10,42 +10,59 @@ const questions = [
         message: 'What is the title of your Project?'
     },
     {
-        type: 'input',
-        name: 'description',
-        message: 'Provide a description of the project'
+        type: 'checkbox',
+        name: 'license',
+        message: 'What licenses would you like to include?',
+        choices:['MIT', 'Apache 2.0', 'GNU GPLv3']
     },
     {
         type: 'input',
-        name: 'installation',
-        message: 'What are the steps required to install your project?'
-    },
-    {
-        type: 'input',
-        name: 'screenShot',
-        message: 'Provide the file name for your screenshot please(.jpeg/.png)'
-    },
-    {
-        type: 'input',
-        name: 'video',
-        message: 'Provide the file name for your video please'
-    },
-    {   
-        type: 'input',
-        name: 'credits',
-        message: 'Provide a contributor name'
-    },
-    {
-        type: 'confirm',
-        name: 'confirmContriLink',
-        message: 'Would you like to include a link to a contributor?',
-        default: true
-    },
-    {
-        type: 'input',
-        name: 'contriLink',
-        message: 'Provide the link to the contributor',
-        when: ({confirmContriLink}) => confirmContriLink
-    },
+        name: 'licenseLink',
+        message: 'Provide a link to the license',
+      
+    }
+    // {
+    //     type: 'input',
+    //     name: 'description',
+    //     message: 'Provide a description of the project'
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'installation',
+    //     message: 'What are the steps required to install your project?'
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'screenShot',
+    //     message: 'Provide the file name for your screenshot please(.jpeg/.png)'
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'video',
+    //     message: 'Provide the file name for your video please'
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'test',
+    //     message: 'Please provide a test sctipts.'
+    // },
+    // {   
+    //     type: 'input',
+    //     name: 'credits',
+    //     message: 'Provide a contributor name'
+    // },
+    // {
+    //     type: 'confirm',
+    //     name: 'confirmContriLink',
+    //     message: 'Would you like to include a link to a contributor?',
+    //     default: true
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'contriLink',
+    //     message: 'Provide the link to the contributor',
+    //     when: ({confirmContriLink}) => confirmContriLink
+    // },
 ];
 
 // TODO: Create a function to write README file
@@ -63,7 +80,8 @@ function writeToFile(data) {
 function init() {
     
     return prompt(questions)
-    .then((data) => {        
+    .then((data) => { 
+        console.log(data.license[2])       
         const markDown = generateMarkDown (data)
         writeToFile(markDown)
     })
