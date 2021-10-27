@@ -116,7 +116,7 @@ function init() {
     return prompt(questions)
     .then((data) => { 
         console.log(data.license[2])       
-        const markDown = generateMarkDown (data)
+        const markDown = generateMarkDown(data)
         writeToFile(markDown)
     })
 }

@@ -1,4 +1,4 @@
-# Enigma
+# Team Profile Generator
   ## Badges
   
   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
@@ -12,17 +12,17 @@
   * [Credits](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#Credits)
   * [Questions](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#questions)
   ## Description: 
-  Generate README files
+  For Managers to generate a webpage that displays his/hers' team basic info So that their emails and Github profiles can be quickly accessed.
   ## Installation: 
-  install node and npm install inquirer
+  npm install inquirer
   ## Usage
-  * ![terminal in VS](../assets/images/template-screen-shot.jpeg)
-  * ![terminal in VS](../assets/videos/video.gif)
+  * ![terminal in VS](../assets/images/team-profile-generator.jpeg)
+  * ![terminal in VS](../assets/videos/https://youtu.be/NjELjHDJw4g)
   ## Credits 
-  Marvin Ren 
+  Marvin Ren https://github.com/mr2447/team-profile-generator
   ## Tests
   No tests
   ## Quesions?
   Reach me on gitHub or by email. 
-  GitHUb: mr2447
+  GitHub: mr2447
   Email: marvin.ren@yahoo.com
