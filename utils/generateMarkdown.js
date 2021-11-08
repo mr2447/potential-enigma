@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   * [Usage](https://github.com/mr2447/potential-enigma/tree/main/dist#usage)
   * [Tests](https://github.com/mr2447/potential-enigma/tree/main/dist#tests)
   * [Credits](https://github.com/mr2447/potential-enigma/tree/main/dist#Credits)
-  * [Questions](https://github.com/mr2447/potential-enigma/tree/main/dist#questions)
+  * [Questions](https://github.com/mr2447/potential-enigma/tree/main/dist#questions?)
   ## Description: 
   ${data.description}
   ## Installation: 
