@@ -12,17 +12,17 @@
   * [Credits](https://github.com/mr2447/potential-enigma/tree/main/dist#Credits)
   * [Questions](https://github.com/mr2447/potential-enigma/tree/main/dist#questions)
   ## Description: 
-  Generates a README file for quick creation.
+  Generates README file for quick creation
   ## Installation: 
   run npm i
   ## Usage
   * ![terminal in VS](../assets/images/template-screen-shot.jpeg)
   * ![terminal in VS](../assets/videos/video.gif)
   ## Credits 
-  Marvin Ren https://github.com/mr2447/potential-enigma
+  Marvin Ren Marvin Ren
   ## Tests
-  no tests
-  ## Quesions?
+  no test
+  ## Questions
   Reach me on gitHub or by email. 
   GitHub: mr2447
   Email: marvin.ren@yahoo.com
