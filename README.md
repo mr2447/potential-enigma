@@ -22,4 +22,4 @@ Made with ❤ by Marvin Ren
 ![passWordGen page](./assets/images/template-screen-shot.jpeg)
 
 ## VIDEO LINK!
-![link](https://youtu.be/hI63jYhJdp0)
+https://youtu.be/hI63jYhJdp0
