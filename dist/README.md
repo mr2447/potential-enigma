@@ -18,7 +18,6 @@
   ## Usage
   ![terminal in VS](../assets/images/template-screen-shot.jpeg)
   ![terminal in VS](../assets/videos/video.gif)
-  ![terminal in VS](https://youtu.be/wJLurewQGCQ)
   ## Credits 
   Marvin Ren https://github.com/mr2447/potential-enigma
   ## Tests
