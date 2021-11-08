@@ -1,7 +1,7 @@
-# afsd
+# Potential enigma
   ## Badges
   
-  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](g)
+  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
   
   This App is open source software licensed as MIT.
   ## Table of Contents
@@ -12,17 +12,17 @@
   * [Credits](https://github.com/mr2447/potential-enigma/tree/main/dist#Credits)
   * [Questions](https://github.com/mr2447/potential-enigma/tree/main/dist#questions)
   ## Description: 
-  fsgd
+  Generates a README file for quick creation.
   ## Installation: 
-  sfgd
+  run npm i
   ## Usage
-  * ![terminal in VS](../assets/images/sgdf)
-  * ![terminal in VS](../assets/videos/)
+  * ![terminal in VS](../assets/images/template-screen-shot.jpeg)
+  * ![terminal in VS](../assets/videos/video.gif)
   ## Credits 
-  gfdf 
+  Marvin Ren https://github.com/mr2447/potential-enigma
   ## Tests
-  d
+  no tests
   ## Quesions?
   Reach me on gitHub or by email. 
-  GitHub: 
-  Email: 
+  GitHub: mr2447
+  Email: marvin.ren@yahoo.com
