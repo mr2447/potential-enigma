@@ -12,18 +12,17 @@
   * [Credits](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#Credits)
   * [Questions](https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#questions)
   ## Description: 
-  Generate readme files easier 
+  Generates a ReadMe file for quick creation.
   ## Installation: 
   run npm i
   ## Usage
-  ![terminal in VS](../assets/images/template-screen-shot.jpeg)
-  ![terminal in VS](../assets/videos/video.gif)
+  * ![terminal in VS](../assets/images/template-screen-shot.jpeg)
+  * ![terminal in VS](../assets/videos/video.gif)
   ## Credits 
-  Marvin Ren https://github.com/mr2447/potential-enigma
+  Marvin Ren https://github.com/mr2447/potential-enigma/tree/main/Develop/dist#description
   ## Tests
   no tests
   ## Quesions?
   Reach me on gitHub or by email. 
   GitHub: mr2447
   Email: marvin.ren@yahoo.com
-∫
