@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   ${data.credits} ${generateContriLink(data)}
   ## Tests
   ${data.test}
-  ## Quesions?
+  ## Questions?
   Reach me on gitHub or by email. 
   GitHub: ${data.gitHubName}
   Email: ${data.email}
