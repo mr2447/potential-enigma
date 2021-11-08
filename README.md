@@ -19,4 +19,4 @@ For developers, using this app can generate README files so that they can quickl
 Made with ❤ by Marvin Ren
 ```
 ## Screen Shot
-![passWordGen page](./Develop/assets/images/template-screen-shot.jpeg)
+![passWordGen page](./assets/images/template-screen-shot.jpeg)
